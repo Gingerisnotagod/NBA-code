@@ -1,0 +1,4 @@
+# team,player,penalty,date   -- see injuries.py for the format
+# penalty: top5=150 top15=125 top30=95 top60=60 top120=30 bench=10, or any number
+# date: blank = every game until removed; YYYY-MM-DD = that game only
+team,player,penalty,date

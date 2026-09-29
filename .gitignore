@@ -1,0 +1,6 @@
+__pycache__/
+bdl_cache/
+*.sqlite
+.env
+.venv/
+.vscode/
