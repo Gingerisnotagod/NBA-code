@@ -96,13 +96,18 @@ class LeagueState:
         self.last_played[away] = game_date
 
 
-def row_for(state, home, away, game_date):
+def row_for(state, home, away, game_date, home_penalty=0.0, away_penalty=0.0):
     """
     Build one feature row from current state. Shared by build() and
     predict.py so that training and inference cannot drift apart.
+
+    home_penalty / away_penalty: Elo points to knock off for missing players
+    (injuries.csv). Only used at prediction time; build() leaves them at 0.
+    They never touch state.ratings, so a player sitting out tonight doesn't
+    permanently lower the team's rating.
     """
-    home_elo = state.ratings[home]
-    away_elo = state.ratings[away]
+    home_elo = state.ratings[home] - home_penalty
+    away_elo = state.ratings[away] - away_penalty
     rest_home = state.rest_days(home, game_date)
     rest_away = state.rest_days(away, game_date)
 

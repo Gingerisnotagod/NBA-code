@@ -31,7 +31,7 @@ DONE_STATES = {"final", "postponed", "canceled", "abandoned"}
 STATUS_CODE = {"scheduled": 1, "delayed": 1, "in_progress": 2, "suspended": 2, "final": 3}
 
 COLUMNS = ["game_id", "game_date", "season", "home_team", "away_team",
-           "home_pts", "away_pts", "status_state", "postseason"]
+           "home_pts", "away_pts", "status_state", "postseason", "tip_utc"]
 
 _last_call = 0.0
 _session = {}                  # season -> DataFrame, so one run never fetches a season twice
@@ -101,6 +101,7 @@ def _flatten(raw):
             "status_state": g.get("status_state")
                             or ("final" if g.get("status") == "Final" else "scheduled"),
             "postseason": bool(g.get("postseason", False)),
+            "tip_utc": g.get("datetime"),          # tip-off time, UTC ISO string
         }
         for g in raw
     ]

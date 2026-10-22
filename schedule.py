@@ -43,7 +43,12 @@ def fetch_season_schedule_bdl(season=None):
 
     out = games[["game_date", "game_id", "home_team", "away_team"]].copy()
     out["status"] = games.status_state.map(bdl.STATUS_CODE).fillna(0).astype(int)
-    return out.sort_values("game_date").reset_index(drop=True)
+
+    # tip-off in US Eastern; older cache files have no tip_utc column -> NaT
+    tip = games["tip_utc"] if "tip_utc" in games else pd.Series(pd.NA, index=games.index)
+    out["tip"] = (pd.to_datetime(tip, utc=True, errors="coerce")
+                    .dt.tz_convert("America/New_York").dt.tz_localize(None))
+    return out.sort_values(["game_date", "tip"]).reset_index(drop=True)
 
 
 def fetch_season_schedule(url=SCHEDULE_URL, timeout=30):
@@ -77,9 +82,15 @@ def fetch_season_schedule(url=SCHEDULE_URL, timeout=30):
     return df.sort_values("game_date").reset_index(drop=True)
 
 
+# 1 = not started, 2 = live. Live games are included because the model only
+# uses pregame information, so its pick is identical to a pregame pick, and
+# balldontlie sometimes marks a game "in progress" well before tip-off.
+OPEN_STATUSES = (1, 2)
+
+
 def upcoming(schedule, start=None, days=1):
     """
-    Unplayed games in a date window.
+    Unplayed (or in-progress) games in a date window.
 
     start: date to begin from (default: today)
     days:  window length; 1 = just that day, 7 = the week ahead
@@ -90,7 +101,7 @@ def upcoming(schedule, start=None, days=1):
     window = schedule[
         (schedule.game_date >= start)
         & (schedule.game_date < end)
-        & (schedule.status == 1)          # not yet played
+        & (schedule.status.isin(OPEN_STATUSES))
     ]
     return window.reset_index(drop=True)
 
@@ -98,7 +109,7 @@ def upcoming(schedule, start=None, days=1):
 def next_slate(schedule, after=None):
     """The next date that has any unplayed games. Useful in the preseason."""
     after = pd.to_datetime(after or dt.date.today()).normalize()
-    future = schedule[(schedule.game_date >= after) & (schedule.status == 1)]
+    future = schedule[(schedule.game_date >= after) & (schedule.status.isin(OPEN_STATUSES))]
     if future.empty:
         return future
     first_date = future.game_date.min()

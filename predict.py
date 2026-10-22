@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 import features
+import injuries as injuries_mod
 import models
 from config import FEATURES
 
@@ -37,12 +38,14 @@ def roll_into_new_season(state):
     return state
 
 
-def predict(model, state, matchups, game_date):
+def predict(model, state, matchups, game_date, injuries=None):
     """
     model     — from fit_final()
     state     — LeagueState from features.build()
     matchups  — list of (home_team, away_team)
     game_date — date of the games, for rest-day computation
+    injuries  — optional DataFrame from injuries.load(); missing players
+                lower their team's Elo for this prediction only
 
     Team names must match the strings in your training data exactly.
     Unknown names raise rather than silently defaulting to a 1500 rating.
@@ -56,8 +59,11 @@ def predict(model, state, matchups, game_date):
 
     rows = []
     for home, away in matchups:
+        home_pen, home_out = injuries_mod.penalty(injuries, home, game_date)
+        away_pen, away_out = injuries_mod.penalty(injuries, away, game_date)
         row = {"home_team": home, "away_team": away}
-        row.update(features.row_for(state, home, away, game_date))
+        row.update(features.row_for(state, home, away, game_date, home_pen, away_pen))
+        row["out"] = "; ".join(filter(None, [home_out, away_out]))
         rows.append(row)
 
     out = pd.DataFrame(rows)
@@ -65,10 +71,10 @@ def predict(model, state, matchups, game_date):
     out["pick"] = np.where(out.home_win_prob >= 0.5, out.home_team, out.away_team)
     out["confidence"] = np.maximum(out.home_win_prob, 1 - out.home_win_prob)
 
-    return out[["home_team", "away_team", "home_win_prob", "pick", "confidence"]]
+    return out[["home_team", "away_team", "home_win_prob", "pick", "confidence", "out"]]
 
 
-def predict_slate(model, state, slate):
+def predict_slate(model, state, slate, injuries=None):
     """
     slate — DataFrame with game_date, home_team, away_team (from schedule.py)
 
@@ -76,18 +82,30 @@ def predict_slate(model, state, slate):
     """
     if slate.empty:
         return pd.DataFrame(columns=["game_date", "home_team", "away_team",
-                                     "home_win_prob", "pick", "confidence"])
+                                     "home_win_prob", "pick", "confidence", "out"])
 
     out = []
     for date, day_games in slate.groupby("game_date"):
         matchups = list(zip(day_games.home_team, day_games.away_team))
-        preds = predict(model, state, matchups, date)
+        preds = predict(model, state, matchups, date, injuries)
         preds.insert(0, "game_date", date)
+        if "tip" in day_games:
+            preds["tip"] = day_games["tip"].values      # same row order as matchups
         out.append(preds)
 
-    return pd.concat(out, ignore_index=True).sort_values(
-        ["game_date", "confidence"], ascending=[True, False]
-    ).reset_index(drop=True)
+    result = pd.concat(out, ignore_index=True)
+
+    # order by date, then tip-off time (earliest first). Without tip times
+    # (e.g. the CDN schedule), fall back to most confident first.
+    if "tip" in result and result["tip"].notna().any():
+        result = result.sort_values(["game_date", "tip", "confidence"],
+                                    ascending=[True, True, False], na_position="last")
+        result.insert(1, "time", result.tip.dt.strftime("%I:%M %p").str.lstrip("0").fillna("TBD"))
+        result = result.drop(columns="tip")
+    else:
+        result = result.drop(columns="tip", errors="ignore")
+        result = result.sort_values(["game_date", "confidence"], ascending=[True, False])
+    return result.reset_index(drop=True)
 
 
 def advance_state(state, results):

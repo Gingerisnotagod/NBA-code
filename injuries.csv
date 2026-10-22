@@ -2,3 +2,13 @@
 # penalty: top5=150 top15=125 top30=95 top60=60 top120=30 bench=10, or any number
 # date: blank = every game until removed; YYYY-MM-DD = that game only
 team,player,penalty,date
+CHI,Nic Claxton,top120,
+POR,Shaedon Sharpe,top60,
+SAC,Ben Simmons,bench,
+LAL,Adou Thiero,bench,
+LAL,Cameron Carr,bench,
+SAC,Dylan Cardwell,bench,
+SAC,Maxime Raynaud,bench,
+ATL,Mouhamed Gueye,bench,
+ATL,Henri Veesaar,bench,
+LAL,Collin Sexton,15,2026-10-21

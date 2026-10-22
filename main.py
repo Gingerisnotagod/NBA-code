@@ -92,7 +92,8 @@ def main():
               f"Elo regressed, form/rest cleared")
 
     # current-franchise names only, so nickname matching can't hit a defunct team
-    recent = games[games.season == last_season]
+    # last two seasons: early in a season, not every team has played yet
+    recent = games[games.season >= last_season - 1]
     current_names = set(recent.home_team) | set(recent.away_team)
 
     inj = None
@@ -148,7 +149,13 @@ def main():
                   f"({slate.game_date.iloc[0].date()})")
 
         preds = predict.predict_slate(model, state, slate, inj)
-        print(f"\n{len(preds)} upcoming games, most confident first\n")
+
+        live = slate[slate.status == 2]
+        if len(live):
+            print("\nnote: balldontlie lists these as in progress; picks use pregame info only:")
+            for g in live.itertuples():
+                print(f"  {g.game_date.date()}  {g.away_team} @ {g.home_team}")
+        print(f"\n{len(preds)} upcoming games, by tip-off time (ET)\n")
         print(preds.round({"home_win_prob": 3, "confidence": 3}).to_string(index=False))
 
         if not args.no_save:

@@ -108,8 +108,22 @@ def _parse_penalty(value):
         ) from None
 
 
+# standard abbreviations -> nickname (the last word of the team name)
+ABBREVIATIONS = {
+    "atl": "hawks", "bos": "celtics", "bkn": "nets", "brk": "nets", "cha": "hornets",
+    "chi": "bulls", "cle": "cavaliers", "dal": "mavericks", "den": "nuggets",
+    "det": "pistons", "gs": "warriors", "gsw": "warriors", "hou": "rockets",
+    "ind": "pacers", "lac": "clippers", "lal": "lakers", "mem": "grizzlies",
+    "mia": "heat", "mil": "bucks", "min": "timberwolves", "no": "pelicans",
+    "nop": "pelicans", "ny": "knicks", "nyk": "knicks", "okc": "thunder",
+    "orl": "magic", "phi": "76ers", "phx": "suns", "pho": "suns",
+    "por": "blazers", "sac": "kings", "sa": "spurs", "sas": "spurs",
+    "tor": "raptors", "uta": "jazz", "utah": "jazz", "was": "wizards", "wsh": "wizards",
+}
+
+
 def _resolve_teams(names, known_teams):
-    """Map 'Celtics' / 'celtics' / 'Boston Celtics' onto the model's team names."""
+    """Map 'Celtics' / 'celtics' / 'Boston Celtics' / 'BOS' onto the model's team names."""
     known = list(known_teams)
     by_full = {k.lower(): k for k in known}
     by_nick = {}
@@ -118,7 +132,10 @@ def _resolve_teams(names, known_teams):
 
     def resolve(name):
         n = name.strip().lower()
-        return by_full.get(n) or by_nick.get(n.split()[-1] if n else "")
+        if not n:
+            return None
+        n = ABBREVIATIONS.get(n, n)
+        return by_full.get(n) or by_nick.get(n.split()[-1])
 
     resolved = names.map(resolve)
     bad = sorted(set(names[resolved.isna()]))
