@@ -4,9 +4,9 @@ Pick tracking.
 Every --upcoming run appends its predictions to picks_log.csv. --score
 compares those picks with actual results and reports how the model did.
 
-If a game was predicted more than once (e.g. you ran it on Monday and again
-on game day), only the LATEST prediction before tip-off counts, since that's
-the one with the most up-to-date results and injury info.
+The log keeps one row per game: re-running --upcoming replaces that game's
+earlier pick with the new one (the newest has the latest results and injury
+info). --score also only counts a prediction made before the game's day ended.
 """
 
 import datetime as dt
@@ -16,12 +16,20 @@ import numpy as np
 import pandas as pd
 
 LOG_PATH = "picks_log.csv"
+KEY = ["game_date", "home_team", "away_team"]
 LOG_COLS = ["predicted_at", "game_date", "home_team", "away_team",
             "home_win_prob", "pick", "confidence", "out"]
 
 
 def save_picks(preds, path=LOG_PATH):
-    """Append a run's predictions to the log. Returns number of rows saved."""
+    """
+    Save a run's predictions to the log, one row per game.
+
+    If a game is already in the log, its row is REPLACED by the new prediction,
+    so re-running --upcoming never creates duplicates. Older duplicates left
+    over from before this change are cleaned up the first time this runs.
+    Returns the number of picks saved.
+    """
     if preds.empty:
         return 0
     rows = preds.copy()
@@ -32,7 +40,17 @@ def save_picks(preds, path=LOG_PATH):
     rows = rows[LOG_COLS]
 
     path = Path(path)
-    rows.to_csv(path, mode="a", header=not path.exists(), index=False)
+    if path.exists():
+        old = pd.read_csv(path, dtype={"out": str, "game_date": str})
+        log = pd.concat([old, rows], ignore_index=True)
+    else:
+        log = rows
+
+    # keep only the newest prediction for each game
+    log = (log.sort_values("predicted_at", kind="stable")
+              .drop_duplicates(KEY, keep="last")
+              .sort_values(["game_date", "predicted_at"], kind="stable"))
+    log.to_csv(path, index=False)
     return len(rows)
 
 

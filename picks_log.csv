@@ -2,18 +2,6 @@ predicted_at,game_date,home_team,away_team,home_win_prob,pick,confidence,out
 2026-10-20T15:31:01,2026-10-20,New York Knicks,Philadelphia 76ers,0.8038663783122737,New York Knicks,0.8038663783122737,
 2026-10-20T15:31:01,2026-10-20,San Antonio Spurs,Oklahoma City Thunder,0.6370010515677296,San Antonio Spurs,0.6370010515677296,
 2026-10-20T15:31:01,2026-10-20,Detroit Pistons,Boston Celtics,0.626448689482698,Detroit Pistons,0.626448689482698,
-2026-10-21T07:25:37,2026-10-23,Boston Celtics,New York Knicks,0.47483517395867714,New York Knicks,0.5251648260413229,
-2026-10-21T07:31:42,2026-10-21,Toronto Raptors,Chicago Bulls,0.802771144032059,Toronto Raptors,0.802771144032059,Nic Claxton (-30)
-2026-10-21T07:31:42,2026-10-21,LA Clippers,Sacramento Kings,0.7948281349486503,LA Clippers,0.7948281349486503,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
-2026-10-21T07:31:42,2026-10-21,Houston Rockets,Dallas Mavericks,0.7924031775401024,Houston Rockets,0.7924031775401024,
-2026-10-21T07:31:42,2026-10-21,Los Angeles Lakers,Golden State Warriors,0.7071381449949817,Los Angeles Lakers,0.7071381449949817,"Adou Thiero (-10), Cameron Carr (-10), Collin Sexton (-15)"
-2026-10-21T07:31:42,2026-10-21,Brooklyn Nets,Charlotte Hornets,0.2950658259927865,Charlotte Hornets,0.7049341740072135,
-2026-10-21T07:31:42,2026-10-21,New Orleans Pelicans,Indiana Pacers,0.6736660565722841,New Orleans Pelicans,0.6736660565722841,
-2026-10-21T07:31:42,2026-10-21,Orlando Magic,Atlanta Hawks,0.662277218203783,Orlando Magic,0.662277218203783,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-21T07:31:42,2026-10-21,Memphis Grizzlies,Utah Jazz,0.6095517230638545,Memphis Grizzlies,0.6095517230638545,
-2026-10-21T07:31:42,2026-10-21,Miami Heat,Minnesota Timberwolves,0.5747414653679981,Miami Heat,0.5747414653679981,
-2026-10-21T07:31:42,2026-10-21,Portland Trail Blazers,Phoenix Suns,0.5410932418388812,Portland Trail Blazers,0.5410932418388812,Shaedon Sharpe (-60)
-2026-10-21T07:31:42,2026-10-21,Washington Wizards,Milwaukee Bucks,0.4934103544394555,Milwaukee Bucks,0.5065896455605445,
 2026-10-21T18:48:06,2026-10-21,Toronto Raptors,Chicago Bulls,0.802771144032059,Toronto Raptors,0.802771144032059,Nic Claxton (-30)
 2026-10-21T18:48:06,2026-10-21,LA Clippers,Sacramento Kings,0.7948281349486503,LA Clippers,0.7948281349486503,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
 2026-10-21T18:48:06,2026-10-21,Houston Rockets,Dallas Mavericks,0.7924031775401024,Houston Rockets,0.7924031775401024,
@@ -25,90 +13,149 @@ predicted_at,game_date,home_team,away_team,home_win_prob,pick,confidence,out
 2026-10-21T18:48:06,2026-10-21,Miami Heat,Minnesota Timberwolves,0.5747414653679981,Miami Heat,0.5747414653679981,
 2026-10-21T18:48:06,2026-10-21,Portland Trail Blazers,Phoenix Suns,0.5410932418388812,Portland Trail Blazers,0.5410932418388812,Shaedon Sharpe (-60)
 2026-10-21T18:48:06,2026-10-21,Washington Wizards,Milwaukee Bucks,0.4934103544394555,Milwaukee Bucks,0.5065896455605445,
-2026-10-21T18:48:06,2026-10-22,Oklahoma City Thunder,Denver Nuggets,0.7815632937210338,Oklahoma City Thunder,0.7815632937210338,
-2026-10-21T18:48:06,2026-10-22,Philadelphia 76ers,Cleveland Cavaliers,0.6178493727168294,Philadelphia 76ers,0.6178493727168294,
-2026-10-21T18:48:06,2026-10-23,Golden State Warriors,Memphis Grizzlies,0.7394284925788304,Golden State Warriors,0.7394284925788304,
-2026-10-21T18:48:06,2026-10-23,Charlotte Hornets,Atlanta Hawks,0.7103966855709023,Charlotte Hornets,0.7103966855709023,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-21T18:48:06,2026-10-23,Washington Wizards,Toronto Raptors,0.31140707708532867,Toronto Raptors,0.6885929229146713,
-2026-10-21T18:48:06,2026-10-23,San Antonio Spurs,Houston Rockets,0.6862042881949856,San Antonio Spurs,0.6862042881949856,
-2026-10-21T18:48:06,2026-10-23,Milwaukee Bucks,Chicago Bulls,0.6563583716225658,Milwaukee Bucks,0.6563583716225658,Nic Claxton (-30)
-2026-10-21T18:48:06,2026-10-23,Los Angeles Lakers,LA Clippers,0.6445468304844453,Los Angeles Lakers,0.6445468304844453,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-21T18:48:06,2026-10-23,Orlando Magic,Minnesota Timberwolves,0.6092554585446954,Orlando Magic,0.6092554585446954,
-2026-10-21T18:48:06,2026-10-23,Indiana Pacers,Dallas Mavericks,0.6013248797782523,Indiana Pacers,0.6013248797782523,
-2026-10-21T18:48:06,2026-10-23,Miami Heat,Detroit Pistons,0.44975932414174424,Detroit Pistons,0.5502406758582558,
-2026-10-21T18:48:06,2026-10-23,Sacramento Kings,Portland Trail Blazers,0.47438127165040367,Portland Trail Blazers,0.5256187283495963,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10); Shaedon Sharpe (-60)"
-2026-10-21T18:48:06,2026-10-23,Boston Celtics,New York Knicks,0.47483517395867714,New York Knicks,0.5251648260413229,
-2026-10-21T18:48:06,2026-10-23,Utah Jazz,New Orleans Pelicans,0.5126904052045729,Utah Jazz,0.5126904052045729,
-2026-10-21T18:48:06,2026-10-24,Cleveland Cavaliers,Brooklyn Nets,0.8474852770931528,Cleveland Cavaliers,0.8474852770931528,
-2026-10-21T18:48:06,2026-10-24,Philadelphia 76ers,Milwaukee Bucks,0.8018466603775826,Philadelphia 76ers,0.8018466603775826,
-2026-10-21T18:48:06,2026-10-24,Denver Nuggets,New Orleans Pelicans,0.7835925647319189,Denver Nuggets,0.7835925647319189,
-2026-10-21T18:48:06,2026-10-24,Charlotte Hornets,Miami Heat,0.6997501466845176,Charlotte Hornets,0.6997501466845176,
-2026-10-21T18:48:06,2026-10-24,Phoenix Suns,Golden State Warriors,0.6990565782671578,Phoenix Suns,0.6990565782671578,
-2026-10-21T18:48:06,2026-10-24,Chicago Bulls,Washington Wizards,0.6928848834695845,Chicago Bulls,0.6928848834695845,Nic Claxton (-30)
-2026-10-21T18:48:06,2026-10-24,Dallas Mavericks,San Antonio Spurs,0.33433175261071485,San Antonio Spurs,0.6656682473892852,
-2026-10-21T18:48:06,2026-10-24,Atlanta Hawks,Houston Rockets,0.545702457465839,Atlanta Hawks,0.545702457465839,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-21T18:48:06,2026-10-25,Oklahoma City Thunder,LA Clippers,0.8316993541968779,Oklahoma City Thunder,0.8316993541968779,
-2026-10-21T18:48:06,2026-10-25,New York Knicks,Orlando Magic,0.7516030249764617,New York Knicks,0.7516030249764617,
-2026-10-21T18:48:06,2026-10-25,Minnesota Timberwolves,Toronto Raptors,0.6321461693967239,Minnesota Timberwolves,0.6321461693967239,
-2026-10-21T18:48:06,2026-10-25,Utah Jazz,Los Angeles Lakers,0.36949374046814687,Los Angeles Lakers,0.6305062595318531,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-21T18:48:06,2026-10-25,Sacramento Kings,Memphis Grizzlies,0.6272758394585867,Sacramento Kings,0.6272758394585867,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
-2026-10-21T18:48:06,2026-10-25,Brooklyn Nets,Indiana Pacers,0.5473136916434864,Brooklyn Nets,0.5473136916434864,
-2026-10-21T18:48:06,2026-10-25,Philadelphia 76ers,Detroit Pistons,0.519088600452047,Philadelphia 76ers,0.519088600452047,
-2026-10-22T10:31:51,2026-10-22,Oklahoma City Thunder,Denver Nuggets,0.7815123807709099,Oklahoma City Thunder,0.7815123807709099,
-2026-10-22T10:31:51,2026-10-22,Philadelphia 76ers,Cleveland Cavaliers,0.6177638081722142,Philadelphia 76ers,0.6177638081722142,
-2026-10-22T10:31:51,2026-10-23,Sacramento Kings,Portland Trail Blazers,0.1506917184952205,Portland Trail Blazers,0.8493082815047794,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10); Shaedon Sharpe (-60)"
-2026-10-22T10:31:51,2026-10-23,Washington Wizards,Toronto Raptors,0.1859606020484518,Toronto Raptors,0.8140393979515482,
-2026-10-22T10:31:51,2026-10-23,Milwaukee Bucks,Chicago Bulls,0.7892159421861757,Milwaukee Bucks,0.7892159421861757,Nic Claxton (-30)
-2026-10-22T10:31:51,2026-10-23,Indiana Pacers,Dallas Mavericks,0.7196933011907569,Indiana Pacers,0.7196933011907569,
-2026-10-22T10:31:51,2026-10-23,Miami Heat,Detroit Pistons,0.29716201200585185,Detroit Pistons,0.7028379879941482,
-2026-10-22T10:31:51,2026-10-23,Charlotte Hornets,Atlanta Hawks,0.7007676873402353,Charlotte Hornets,0.7007676873402353,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-22T10:31:51,2026-10-23,Los Angeles Lakers,LA Clippers,0.6302973126400655,Los Angeles Lakers,0.6302973126400655,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-22T10:31:51,2026-10-23,Orlando Magic,Minnesota Timberwolves,0.3929366176788279,Minnesota Timberwolves,0.6070633823211721,
-2026-10-22T10:31:51,2026-10-23,Utah Jazz,New Orleans Pelicans,0.41156789648151876,New Orleans Pelicans,0.5884321035184812,
-2026-10-22T10:31:51,2026-10-23,San Antonio Spurs,Houston Rockets,0.5871310343790455,San Antonio Spurs,0.5871310343790455,
-2026-10-22T10:31:51,2026-10-23,Boston Celtics,New York Knicks,0.47479921282111925,New York Knicks,0.5252007871788807,
-2026-10-22T10:31:51,2026-10-23,Golden State Warriors,Memphis Grizzlies,0.5014553796300241,Golden State Warriors,0.5014553796300241,
-2026-10-22T10:31:51,2026-10-24,Cleveland Cavaliers,Brooklyn Nets,0.8681416659460358,Cleveland Cavaliers,0.8681416659460358,
-2026-10-22T10:31:51,2026-10-24,Philadelphia 76ers,Milwaukee Bucks,0.850463399695423,Philadelphia 76ers,0.850463399695423,
-2026-10-22T10:31:51,2026-10-24,Charlotte Hornets,Miami Heat,0.8423769899846378,Charlotte Hornets,0.8423769899846378,
-2026-10-22T10:31:51,2026-10-24,Denver Nuggets,New Orleans Pelicans,0.8017377808858958,Denver Nuggets,0.8017377808858958,
-2026-10-22T10:31:51,2026-10-24,Dallas Mavericks,San Antonio Spurs,0.2468803431850056,San Antonio Spurs,0.7531196568149944,
-2026-10-22T10:31:51,2026-10-24,Chicago Bulls,Washington Wizards,0.37000016311307243,Washington Wizards,0.6299998368869275,Nic Claxton (-30)
-2026-10-22T10:31:51,2026-10-24,Phoenix Suns,Golden State Warriors,0.5859515619544537,Phoenix Suns,0.5859515619544537,
-2026-10-22T10:31:51,2026-10-24,Atlanta Hawks,Houston Rockets,0.4929635238776566,Houston Rockets,0.5070364761223434,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-22T10:31:51,2026-10-25,Utah Jazz,Los Angeles Lakers,0.17012727124312907,Los Angeles Lakers,0.8298727287568709,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-22T10:31:51,2026-10-25,New York Knicks,Orlando Magic,0.7895544030495169,New York Knicks,0.7895544030495169,
-2026-10-22T10:31:51,2026-10-25,Oklahoma City Thunder,LA Clippers,0.7331773500389527,Oklahoma City Thunder,0.7331773500389527,
-2026-10-22T10:31:51,2026-10-25,Sacramento Kings,Memphis Grizzlies,0.3577902527914641,Memphis Grizzlies,0.642209747208536,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
-2026-10-22T10:31:51,2026-10-25,Minnesota Timberwolves,Toronto Raptors,0.5487077886287939,Minnesota Timberwolves,0.5487077886287939,
-2026-10-22T10:31:51,2026-10-25,Brooklyn Nets,Indiana Pacers,0.47862481838345833,Indiana Pacers,0.5213751816165417,
-2026-10-22T10:31:51,2026-10-25,Philadelphia 76ers,Detroit Pistons,0.5190569212158098,Philadelphia 76ers,0.5190569212158098,
-2026-10-22T10:39:05,2026-10-22,Philadelphia 76ers,Cleveland Cavaliers,0.6177638081722142,Philadelphia 76ers,0.6177638081722142,
-2026-10-22T10:39:05,2026-10-22,Oklahoma City Thunder,Denver Nuggets,0.7815123807709099,Oklahoma City Thunder,0.7815123807709099,
-2026-10-22T10:39:05,2026-10-23,Milwaukee Bucks,Chicago Bulls,0.7892159421861757,Milwaukee Bucks,0.7892159421861757,Nic Claxton (-30)
-2026-10-22T10:39:05,2026-10-23,Washington Wizards,Toronto Raptors,0.1859606020484518,Toronto Raptors,0.8140393979515482,
-2026-10-22T10:39:05,2026-10-23,Indiana Pacers,Dallas Mavericks,0.7196933011907569,Indiana Pacers,0.7196933011907569,
-2026-10-22T10:39:05,2026-10-23,Charlotte Hornets,Atlanta Hawks,0.7007676873402353,Charlotte Hornets,0.7007676873402353,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-22T10:39:05,2026-10-23,Orlando Magic,Minnesota Timberwolves,0.3929366176788279,Minnesota Timberwolves,0.6070633823211721,
-2026-10-22T10:39:05,2026-10-23,Boston Celtics,New York Knicks,0.47479921282111925,New York Knicks,0.5252007871788807,
-2026-10-22T10:39:05,2026-10-23,Miami Heat,Detroit Pistons,0.29716201200585185,Detroit Pistons,0.7028379879941482,
-2026-10-22T10:39:05,2026-10-23,Utah Jazz,New Orleans Pelicans,0.41156789648151876,New Orleans Pelicans,0.5884321035184812,
-2026-10-22T10:39:05,2026-10-23,San Antonio Spurs,Houston Rockets,0.5871310343790455,San Antonio Spurs,0.5871310343790455,
-2026-10-22T10:39:05,2026-10-23,Sacramento Kings,Portland Trail Blazers,0.1506917184952205,Portland Trail Blazers,0.8493082815047794,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10); Shaedon Sharpe (-60)"
-2026-10-22T10:39:05,2026-10-23,Los Angeles Lakers,LA Clippers,0.6302973126400655,Los Angeles Lakers,0.6302973126400655,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-22T10:39:05,2026-10-23,Golden State Warriors,Memphis Grizzlies,0.5014553796300241,Golden State Warriors,0.5014553796300241,
-2026-10-22T10:39:05,2026-10-24,Charlotte Hornets,Miami Heat,0.8423769899846378,Charlotte Hornets,0.8423769899846378,
-2026-10-22T10:39:05,2026-10-24,Cleveland Cavaliers,Brooklyn Nets,0.8681416659460358,Cleveland Cavaliers,0.8681416659460358,
-2026-10-22T10:39:05,2026-10-24,Philadelphia 76ers,Milwaukee Bucks,0.850463399695423,Philadelphia 76ers,0.850463399695423,
-2026-10-22T10:39:05,2026-10-24,Dallas Mavericks,San Antonio Spurs,0.2468803431850056,San Antonio Spurs,0.7531196568149944,
-2026-10-22T10:39:05,2026-10-24,Chicago Bulls,Washington Wizards,0.37000016311307243,Washington Wizards,0.6299998368869275,Nic Claxton (-30)
-2026-10-22T10:39:05,2026-10-24,Atlanta Hawks,Houston Rockets,0.4929635238776566,Houston Rockets,0.5070364761223434,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
-2026-10-22T10:39:05,2026-10-24,Denver Nuggets,New Orleans Pelicans,0.8017377808858958,Denver Nuggets,0.8017377808858958,
-2026-10-22T10:39:05,2026-10-24,Phoenix Suns,Golden State Warriors,0.5859515619544537,Phoenix Suns,0.5859515619544537,
-2026-10-22T10:39:05,2026-10-25,Utah Jazz,Los Angeles Lakers,0.17012727124312907,Los Angeles Lakers,0.8298727287568709,"Adou Thiero (-10), Cameron Carr (-10)"
-2026-10-22T10:39:05,2026-10-25,Brooklyn Nets,Indiana Pacers,0.47862481838345833,Indiana Pacers,0.5213751816165417,
-2026-10-22T10:39:05,2026-10-25,New York Knicks,Orlando Magic,0.7895544030495169,New York Knicks,0.7895544030495169,
-2026-10-22T10:39:05,2026-10-25,Oklahoma City Thunder,LA Clippers,0.7331773500389527,Oklahoma City Thunder,0.7331773500389527,
-2026-10-22T10:39:05,2026-10-25,Minnesota Timberwolves,Toronto Raptors,0.5487077886287939,Minnesota Timberwolves,0.5487077886287939,
-2026-10-22T10:39:05,2026-10-25,Philadelphia 76ers,Detroit Pistons,0.5190569212158098,Philadelphia 76ers,0.5190569212158098,
-2026-10-22T10:39:05,2026-10-25,Sacramento Kings,Memphis Grizzlies,0.35779025279146404,Memphis Grizzlies,0.642209747208536,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
+2026-10-22T13:09:26,2026-10-22,Philadelphia 76ers,Cleveland Cavaliers,0.6060329184938072,Philadelphia 76ers,0.6060329184938072,"Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10); Khalifa Diop (-10), Nae'Qwan Tomlin (-10)"
+2026-10-22T13:09:26,2026-10-22,Oklahoma City Thunder,Denver Nuggets,0.7645554850778153,Oklahoma City Thunder,0.7645554850778153,"Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10); Julian Strawther (-10)"
+2026-10-22T13:09:26,2026-10-23,Milwaukee Bucks,Chicago Bulls,0.7892159421861757,Milwaukee Bucks,0.7892159421861757,Nic Claxton (-30)
+2026-10-22T13:09:26,2026-10-23,Washington Wizards,Toronto Raptors,0.1788211629516403,Toronto Raptors,0.8211788370483597,"Tristan Vukcevic (-10), Jamir Watkins (-10); Nate Bittle (-10)"
+2026-10-22T13:09:26,2026-10-23,Indiana Pacers,Dallas Mavericks,0.7096461169256619,Indiana Pacers,0.7096461169256619,Johnny Furphy (-10)
+2026-10-22T13:09:26,2026-10-23,Charlotte Hornets,Atlanta Hawks,0.6904780431629146,Charlotte Hornets,0.6904780431629146,"Kylan Boswell (-10); Mouhamed Gueye (-10), Henri Veesaar (-10)"
+2026-10-22T13:09:26,2026-10-23,Orlando Magic,Minnesota Timberwolves,0.4047804507666896,Minnesota Timberwolves,0.5952195492333103,"Noah Penda (-10), Izaiyah Nelson (-10); Donte DiVincenzo (-30)"
+2026-10-22T13:09:26,2026-10-23,Boston Celtics,New York Knicks,0.4625162779418146,New York Knicks,0.5374837220581854,Devin Carter (-10)
+2026-10-22T13:09:26,2026-10-23,Miami Heat,Detroit Pistons,0.2971620120058518,Detroit Pistons,0.7028379879941482,
+2026-10-22T13:09:26,2026-10-23,Utah Jazz,New Orleans Pelicans,0.3762355389207275,New Orleans Pelicans,0.6237644610792725,Jusuf Nurkic (-30)
+2026-10-22T13:09:26,2026-10-23,San Antonio Spurs,Houston Rockets,0.5753985529972342,San Antonio Spurs,0.5753985529972342,Jayden Quaintance (-10)
+2026-10-22T13:09:26,2026-10-23,Sacramento Kings,Portland Trail Blazers,0.1506917184952205,Portland Trail Blazers,0.8493082815047794,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10); Shaedon Sharpe (-60)"
+2026-10-22T13:09:26,2026-10-23,Los Angeles Lakers,LA Clippers,0.7866189865122981,Los Angeles Lakers,0.7866189865122981,"Bradley Beal (-30), Max Strus (-30), Yanic Konan Niederhauser (-10), Brandon Ingram (-60), Jordan Miller (-10)"
+2026-10-22T13:09:26,2026-10-23,Golden State Warriors,Memphis Grizzlies,0.3252637343225865,Memphis Grizzlies,0.6747362656774135,"Kristaps Porzingis (-60), Moses Moody (-30), Jimmy Butler III (-60)"
+2026-10-22T13:09:26,2026-10-24,Charlotte Hornets,Miami Heat,0.8358506226534588,Charlotte Hornets,0.8358506226534588,Kylan Boswell (-10)
+2026-10-22T13:09:26,2026-10-24,Cleveland Cavaliers,Brooklyn Nets,0.8571640420636403,Cleveland Cavaliers,0.8571640420636403,"Khalifa Diop (-10), Nae'Qwan Tomlin (-10)"
+2026-10-22T13:09:26,2026-10-24,Philadelphia 76ers,Milwaukee Bucks,0.8314138895686679,Philadelphia 76ers,0.8314138895686679,"Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-10-22T13:09:26,2026-10-24,Dallas Mavericks,San Antonio Spurs,0.2558095122500636,San Antonio Spurs,0.7441904877499363,Jayden Quaintance (-10)
+2026-10-22T13:09:26,2026-10-24,Chicago Bulls,Washington Wizards,0.393020088799094,Washington Wizards,0.606979911200906,"Nic Claxton (-30); Tristan Vukcevic (-10), Jamir Watkins (-10)"
+2026-10-22T13:09:26,2026-10-24,Atlanta Hawks,Houston Rockets,0.4929635238776566,Houston Rockets,0.5070364761223434,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
+2026-10-22T13:09:26,2026-10-24,Denver Nuggets,New Orleans Pelicans,0.7940984783154643,Denver Nuggets,0.7940984783154643,Julian Strawther (-10)
+2026-10-22T13:09:26,2026-10-24,Phoenix Suns,Golden State Warriors,0.715735782258177,Phoenix Suns,0.715735782258177,"Mark Williams (-30); Kristaps Porzingis (-60), Moses Moody (-30), Jimmy Butler III (-60)"
+2026-10-22T13:09:26,2026-10-25,Utah Jazz,Los Angeles Lakers,0.1388651378592418,Los Angeles Lakers,0.8611348621407582,Jusuf Nurkic (-30)
+2026-10-22T13:09:26,2026-10-25,Brooklyn Nets,Indiana Pacers,0.4909739485986579,Indiana Pacers,0.509026051401342,Johnny Furphy (-10)
+2026-10-22T13:09:26,2026-10-25,Oklahoma City Thunder,LA Clippers,0.8211927650269093,Oklahoma City Thunder,0.8211927650269093,"Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10); Bradley Beal (-30), Max Strus (-30), Yanic Konan Niederhauser (-10), Brandon Ingram (-60), Jordan Miller (-10)"
+2026-10-22T13:09:26,2026-10-25,New York Knicks,Orlando Magic,0.8048242754018717,New York Knicks,0.8048242754018717,"Noah Penda (-10), Izaiyah Nelson (-10)"
+2026-10-22T13:09:26,2026-10-25,Minnesota Timberwolves,Toronto Raptors,0.5242687762107695,Minnesota Timberwolves,0.5242687762107695,Donte DiVincenzo (-30); Nate Bittle (-10)
+2026-10-22T13:09:26,2026-10-25,Philadelphia 76ers,Detroit Pistons,0.482012925275117,Detroit Pistons,0.5179870747248829,"Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-10-22T13:09:26,2026-10-25,Sacramento Kings,Memphis Grizzlies,0.357790252791464,Memphis Grizzlies,0.642209747208536,"Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
+2026-10-26T18:19:24,2026-10-26,Charlotte Hornets,Washington Wizards,0.8077190346697561,Charlotte Hornets,0.8077190346697561,"Kylan Boswell (-10); Tristan Vukcevic (-10), Jamir Watkins (-10)"
+2026-10-26T18:19:24,2026-10-26,Cleveland Cavaliers,Minnesota Timberwolves,0.5153951781413278,Cleveland Cavaliers,0.5153951781413278,"Khalifa Diop (-10), Nae'Qwan Tomlin (-10); Donte DiVincenzo (-30)"
+2026-10-26T18:19:24,2026-10-26,Boston Celtics,Chicago Bulls,0.8769571805277271,Boston Celtics,0.8769571805277271,Devin Carter (-10); Nic Claxton (-30)
+2026-10-26T18:19:24,2026-10-26,Miami Heat,Dallas Mavericks,0.6628353346107463,Miami Heat,0.6628353346107463,
+2026-10-26T18:19:24,2026-10-26,Oklahoma City Thunder,Phoenix Suns,0.8709127228119994,Oklahoma City Thunder,0.8709127228119994,"Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10); Mark Williams (-30)"
+2026-10-26T18:19:24,2026-10-26,Milwaukee Bucks,Indiana Pacers,0.5856888523144235,Milwaukee Bucks,0.5856888523144235,Johnny Furphy (-10)
+2026-10-26T18:19:24,2026-10-26,Houston Rockets,Atlanta Hawks,0.6320517641352726,Houston Rockets,0.6320517641352726,"Mouhamed Gueye (-10), Henri Veesaar (-10)"
+2026-10-26T18:19:24,2026-10-26,Utah Jazz,Memphis Grizzlies,0.4551783902227846,Memphis Grizzlies,0.5448216097772154,Jusuf Nurkic (-30)
+2026-10-26T18:19:24,2026-10-26,Denver Nuggets,Golden State Warriors,0.8929450547740255,Denver Nuggets,0.8929450547740255,"Julian Strawther (-10); Kristaps Porzingis (-60), Moses Moody (-30), Jimmy Butler III (-60)"
+2026-10-27T20:43:41,2026-10-27,Boston Celtics,Brooklyn Nets,0.9155305352889724,Boston Celtics,0.9155305352889724,Devin Carter (-10); Tyler Bilodeau (-10)
+2026-10-27T20:43:41,2026-10-27,San Antonio Spurs,Sacramento Kings,0.9324898737191428,San Antonio Spurs,0.9324898737191428,"Tobias Harris (-30), Jayden Quaintance (-10); Keegan Murray (-60), Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
+2026-10-27T20:43:41,2026-10-27,New York Knicks,Detroit Pistons,0.650511867489921,New York Knicks,0.650511867489921,"Jose Alvarado (-10); Jalen Duren (-60), Isaiah Joe (-30)"
+2026-10-27T20:43:41,2026-10-27,Los Angeles Lakers,Portland Trail Blazers,0.6802397407713813,Los Angeles Lakers,0.6802397407713813,"Adou Thiero (-10), Cameron Carr (-10); Shaedon Sharpe (-60), Chris Youngblood (-10), Scoot Henderson (-15), Branden Carlson (-5)"
+2026-10-28T21:03:31,2026-10-28,Cleveland Cavaliers,Washington Wizards,0.8614653104313109,Cleveland Cavaliers,0.8614653104313109,"Khalifa Diop (-10), Nae'Qwan Tomlin (-10); Tristan Vukcevic (-10), Jamir Watkins (-10), Justin Champagnie (-10)"
+2026-10-28T21:03:31,2026-10-28,Atlanta Hawks,Miami Heat,0.8012042786562279,Atlanta Hawks,0.8012042786562279,"Mouhamed Gueye (-10), Henri Veesaar (-10), Aaron Wiggins (-15); Simone Fontecchio (-25)"
+2026-10-28T21:03:31,2026-10-28,Detroit Pistons,Charlotte Hornets,0.7578668329644258,Detroit Pistons,0.7578668329644258,"Jalen Duren (-60), Isaiah Joe (-30), Ausar Thompson (-60); Kon Knueppel (-95), Coby White (-60), Grant Williams (-10), Kylan Boswell (-10)"
+2026-10-28T21:03:31,2026-10-28,Indiana Pacers,Philadelphia 76ers,0.2522462023890316,Philadelphia 76ers,0.7477537976109683,"Ivica Zubac (-60), T.J. McConnell (-30), Johnny Furphy (-10), Ben Sheppard (-10), Tyrese Haliburton (-48), Andrew Nembhard (-30); Jabari Walker (-10), Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-10-28T21:03:31,2026-10-28,Toronto Raptors,Orlando Magic,0.7561540019070309,Toronto Raptors,0.7561540019070309,"Kawhi Leonard (-125), Nate Bittle (-10); Paolo Banchero (-95), Jalen Suggs (-60), Jonathan Isaac (-10), Izaiyah Nelson (-10), Noah Penda (-10)"
+2026-10-28T21:03:31,2026-10-28,Minnesota Timberwolves,Golden State Warriors,0.8656584265635512,Minnesota Timberwolves,0.8656584265635512,"Anthony Edwards (-125), Donte DiVincenzo (-30); Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30), Yaxel Lendeborg (-15)"
+2026-10-28T21:03:31,2026-10-28,Chicago Bulls,New York Knicks,0.199555003193048,New York Knicks,0.800444996806952,"Nic Claxton (-30), Patrick Williams (-15); Jose Alvarado (-5)"
+2026-10-28T21:03:31,2026-10-28,Milwaukee Bucks,Houston Rockets,0.4139395827890386,Houston Rockets,0.5860604172109614,"Alperen Sengun (-95), Steven Adams (-30), Marcus Smart (-15)"
+2026-10-28T21:03:31,2026-10-28,New Orleans Pelicans,Denver Nuggets,0.4830704138851415,Denver Nuggets,0.5169295861148585,"Yves Missi (-30), Jordan Poole (-15); Spencer Jones (-10), Alpha Diallo (-10), Julian Strawther (-10), Cameron Johnson (-30)"
+2026-10-28T21:03:31,2026-10-28,Utah Jazz,San Antonio Spurs,0.1308929680163113,San Antonio Spurs,0.8691070319836887,"Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10), Lauri Markkanen (-48), Jaxson Hayes (-15); Jayden Quaintance (-10), Tobias Harris (-30)"
+2026-10-28T21:03:31,2026-10-28,Dallas Mavericks,Oklahoma City Thunder,0.3664600383026318,Oklahoma City Thunder,0.6335399616973683,"Dereck Lively II (-30), Sergio de Larrea (-10), Kyrie Irving (-48), Naji Marshall (-25), Santi Aldama (-15), Caleb Martin (-15), Tarik Biberovic (-8); Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Alex Caruso (-30), Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10), Ajay Mitchell (-30)"
+2026-10-28T21:03:31,2026-10-28,LA Clippers,Los Angeles Lakers,0.524253237790952,LA Clippers,0.524253237790952,"Brandon Ingram (-95), Bradley Beal (-60), Rui Hachimura (-30), Max Strus (-30), Jordan Miller (-10), Yanic Konan Niederhauser (-10); Adou Thiero (-10), Cameron Carr (-10), Luka Doncic (-150)"
+2026-10-29T12:10:48,2026-10-29,New Orleans Pelicans,Sacramento Kings,0.7552525625316855,New Orleans Pelicans,0.7552525625316855,"Yves Missi (-30), Jordan Poole (-15); Keegan Murray (-60), Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
+2026-10-29T12:10:48,2026-10-29,Atlanta Hawks,Cleveland Cavaliers,0.6338515587030704,Atlanta Hawks,0.6338515587030704,"Mouhamed Gueye (-10), Henri Veesaar (-10); Nae'Qwan Tomlin (-10), Khalifa Diop (-5)"
+2026-10-29T12:10:48,2026-10-29,Portland Trail Blazers,Memphis Grizzlies,0.7788435832740224,Portland Trail Blazers,0.7788435832740224,"Shaedon Sharpe (-60), Chris Youngblood (-5)"
+2026-10-29T12:10:48,2026-10-30,Washington Wizards,Charlotte Hornets,0.512414788643477,Washington Wizards,0.512414788643477,"Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10); Kon Knueppel (-95), Coby White (-60), Grant Williams (-10), Kylan Boswell (-10)"
+2026-10-29T12:10:48,2026-10-30,Boston Celtics,Chicago Bulls,0.90953215223237,Boston Celtics,0.90953215223237,Devin Carter (-10); Nic Claxton (-30)
+2026-10-29T12:10:48,2026-10-30,Toronto Raptors,Orlando Magic,0.8154907233600348,Toronto Raptors,0.8154907233600348,"Kawhi Leonard (-125), Nate Bittle (-10); Paolo Banchero (-95), Jalen Suggs (-60), Izaiyah Nelson (-10), Noah Penda (-10)"
+2026-10-29T12:10:48,2026-10-30,Brooklyn Nets,Detroit Pistons,0.2141642967492406,Detroit Pistons,0.7858357032507594,Jalen Duren (-60)
+2026-10-29T12:10:48,2026-10-30,Philadelphia 76ers,New York Knicks,0.427664058473219,New York Knicks,0.572335941526781,"Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-10-29T12:10:48,2026-10-30,Miami Heat,Indiana Pacers,0.825373973927031,Miami Heat,0.825373973927031,"Tyrese Haliburton (-95), T.J. McConnell (-30), Johnny Furphy (-10), Ben Sheppard (-10)"
+2026-10-29T12:10:48,2026-10-30,Minnesota Timberwolves,LA Clippers,0.8091822944497596,Minnesota Timberwolves,0.8091822944497596,"Anthony Edwards (-125), Donte DiVincenzo (-30); Brandon Ingram (-95), Bradley Beal (-60), Max Strus (-30), Jordan Miller (-10), Yanic Konan Niederhauser (-10)"
+2026-10-29T12:10:48,2026-10-30,Dallas Mavericks,Houston Rockets,0.3483864836272286,Houston Rockets,0.6516135163727714,Dereck Lively II (-30); Steven Adams (-30)
+2026-10-29T12:10:48,2026-10-30,Golden State Warriors,Los Angeles Lakers,0.2233429921970793,Los Angeles Lakers,0.7766570078029207,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30)"
+2026-10-29T12:10:48,2026-10-30,Phoenix Suns,Denver Nuggets,0.4643705685637351,Denver Nuggets,0.5356294314362648,"Mark Williams (-30); Spencer Jones (-10), Julian Strawther (-10)"
+2026-10-29T12:10:48,2026-10-31,Utah Jazz,Portland Trail Blazers,0.1845747383648771,Portland Trail Blazers,0.8154252616351229,"Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10); Shaedon Sharpe (-60)"
+2026-10-29T12:10:48,2026-10-31,Charlotte Hornets,Philadelphia 76ers,0.3856159713438368,Philadelphia 76ers,0.6143840286561632,"Kon Knueppel (-95), Coby White (-60), Grant Williams (-10), Kylan Boswell (-10); Tacko Fall (-10), Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-10-29T12:10:48,2026-10-31,New Orleans Pelicans,Atlanta Hawks,0.3699443187022221,Atlanta Hawks,0.6300556812977778,"Yves Missi (-30); Mouhamed Gueye (-10), Henri Veesaar (-10)"
+2026-10-29T12:10:48,2026-10-31,Memphis Grizzlies,Sacramento Kings,0.8446222763182124,Memphis Grizzlies,0.8446222763182124,"Keegan Murray (-60), Ben Simmons (-10), Dylan Cardwell (-10), Maxime Raynaud (-10)"
+2026-10-29T12:10:48,2026-10-31,San Antonio Spurs,Minnesota Timberwolves,0.8162011878848321,San Antonio Spurs,0.8162011878848321,"Jayden Quaintance (-10); Anthony Edwards (-125), Donte DiVincenzo (-30)"
+2026-10-29T12:10:48,2026-10-31,Milwaukee Bucks,Cleveland Cavaliers,0.300067886517917,Cleveland Cavaliers,0.6999321134820831,Nae'Qwan Tomlin (-10)
+2026-10-29T12:10:48,2026-10-31,Houston Rockets,Oklahoma City Thunder,0.7646574690995575,Houston Rockets,0.7646574690995575,"Steven Adams (-30); Jalen Williams (-95), Cason Wallace (-30), Alex Caruso (-30), Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10)"
+2026-11-01T11:26:11,2026-11-01,Orlando Magic,Boston Celtics,0.2443319612719487,Boston Celtics,0.7556680387280512,"Paolo Banchero (-95), Jalen Suggs (-60), Izaiyah Nelson (-10), Noah Penda (-10); Devin Carter (-10)"
+2026-11-01T11:26:11,2026-11-01,Indiana Pacers,Brooklyn Nets,0.5816841228685374,Indiana Pacers,0.5816841228685374,"Tyrese Haliburton (-95), T.J. McConnell (-30), Johnny Furphy (-10), Ben Sheppard (-10)"
+2026-11-01T11:26:11,2026-11-01,Golden State Warriors,LA Clippers,0.6709874657640825,Golden State Warriors,0.6709874657640825,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30); Brandon Ingram (-95), Bradley Beal (-60), Max Strus (-30), Jordan Miller (-10), Yanic Konan Niederhauser (-10)"
+2026-11-01T11:26:11,2026-11-01,Los Angeles Lakers,Toronto Raptors,0.7516662099246375,Los Angeles Lakers,0.7516662099246375,"Kawhi Leonard (-125), Nate Bittle (-10)"
+2026-11-02T18:41:30,2026-11-02,Cleveland Cavaliers,Oklahoma City Thunder,0.7955935614204003,Cleveland Cavaliers,0.7955935614204003,"Jaylon Tyson (-30), Nae'Qwan Tomlin (-10), Peyton Watson (-8); Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Alex Caruso (-30), Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10)"
+2026-11-02T18:41:30,2026-11-02,New York Knicks,Brooklyn Nets,0.9504491552041734,New York Knicks,0.9504491552041734,"Jose Alvarado (-5); Egor Demin (-30), Tyler Bilodeau (-10), Mikel Brown Jr. (-15)"
+2026-11-02T18:41:30,2026-11-02,Philadelphia 76ers,Chicago Bulls,0.8833799334944743,Philadelphia 76ers,0.8833799334944743,"Dominick Barlow (-10), Ariel Hukporti (-10), Joel Embiid (-25); Nic Claxton (-45), Jalen Smith (-15), Dailyn Swain (-5)"
+2026-11-02T18:41:30,2026-11-02,Indiana Pacers,Atlanta Hawks,0.254872066570267,Atlanta Hawks,0.7451279334297329,"Tyrese Haliburton (-95), Johnny Furphy (-10), Ben Sheppard (-10), T.J. McConnell (-15), Obi Toppin (-15); Mouhamed Gueye (-10), Henri Veesaar (-10), Jock Landale (-10), Jalen Johnson (-25)"
+2026-11-02T18:41:30,2026-11-02,Charlotte Hornets,Detroit Pistons,0.3345329930911718,Detroit Pistons,0.6654670069088282,"Kon Knueppel (-95), Grant Williams (-10); Jalen Duren (-60), Isaiah Joe (-5)"
+2026-11-02T18:41:30,2026-11-02,Orlando Magic,Washington Wizards,0.5986642978888309,Orlando Magic,0.5986642978888309,"Paolo Banchero (-95), Jalen Suggs (-60), Jonathan Isaac (-10), Izaiyah Nelson (-10), Noah Penda (-10); Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10), Anthony Gill (-5), Alex Sarr (-5)"
+2026-11-02T18:41:30,2026-11-02,Dallas Mavericks,Sacramento Kings,0.8421187870468952,Dallas Mavericks,0.8421187870468952,"Dereck Lively II (-30), Tarik Biberovic (-10), Sergio de Larrea (-10), Kyrie Irving (-25), Santi Aldama (-25); Keegan Murray (-60), Ben Simmons (-10), Maxime Raynaud (-10), Zach LaVine (-30), Dylan Cardwell (-5)"
+2026-11-02T18:41:30,2026-11-02,Minnesota Timberwolves,Milwaukee Bucks,0.8173636479809191,Minnesota Timberwolves,0.8173636479809191,"Anthony Edwards (-125), Donte DiVincenzo (-30)"
+2026-11-02T18:41:30,2026-11-02,Memphis Grizzlies,New Orleans Pelicans,0.7525498426182219,Memphis Grizzlies,0.7525498426182219,"Scotty Pippen Jr. (-25), Quinten Post (-5); Jordan Poole (-30), Yves Missi (-30), Trey Murphy III (-48)"
+2026-11-02T18:41:30,2026-11-02,San Antonio Spurs,Utah Jazz,0.9500596995848904,San Antonio Spurs,0.9500596995848904,"Tobias Harris (-30), Jayden Quaintance (-10); Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10)"
+2026-11-02T18:41:30,2026-11-02,Houston Rockets,Boston Celtics,0.6394494693950288,Houston Rockets,0.6394494693950288,"Steven Adams (-30), Clint Capela (-15), Reed Sheppard (-15); Devin Carter (-10)"
+2026-11-02T18:41:30,2026-11-02,Denver Nuggets,Portland Trail Blazers,0.7332741665422251,Denver Nuggets,0.7332741665422251,"Spencer Jones (-10), Julian Strawther (-10), Alpha Diallo (-8); Ja Morant (-95), Shaedon Sharpe (-60)"
+2026-11-02T18:41:30,2026-11-02,Los Angeles Lakers,Miami Heat,0.687965477216106,Los Angeles Lakers,0.687965477216106,"Adou Thiero (-10), Ziaire Williams (-30); Tim Hardaway Jr. (-15)"
+2026-11-02T18:41:30,2026-11-02,LA Clippers,Toronto Raptors,0.4245717891406464,Toronto Raptors,0.5754282108593536,"Brandon Ingram (-95), Bradley Beal (-60), Max Strus (-30), Jordan Miller (-10), Yanic Konan Niederhauser (-10), Derrick Jones Jr. (-15); Kawhi Leonard (-125), Jakob Poeltl (-30)"
+2026-11-02T18:41:30,2026-11-02,Golden State Warriors,Phoenix Suns,0.448766399654801,Phoenix Suns,0.551233600345199,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30), Gui Santos (-30); Mark Williams (-30)"
+2026-11-04T18:21:43,2026-11-04,Detroit Pistons,Philadelphia 76ers,0.7018800557786626,Detroit Pistons,0.7018800557786626,"Jalen Duren (-60); Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-11-04T18:21:43,2026-11-04,Washington Wizards,Atlanta Hawks,0.3679581834453397,Atlanta Hawks,0.6320418165546603,"Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10), Reece Beekman (-10); Mouhamed Gueye (-10), Henri Veesaar (-10)"
+2026-11-04T18:21:43,2026-11-04,New York Knicks,Chicago Bulls,0.9193378368868498,New York Knicks,0.9193378368868498,
+2026-11-04T18:21:43,2026-11-04,Boston Celtics,Milwaukee Bucks,0.8966724705860698,Boston Celtics,0.8966724705860698,Devin Carter (-10)
+2026-11-04T18:21:43,2026-11-04,Brooklyn Nets,Charlotte Hornets,0.4688310122741597,Charlotte Hornets,0.5311689877258403,"Egor Demin (-30), Tyler Bilodeau (-10); Kon Knueppel (-95), Grant Williams (-10)"
+2026-11-04T18:21:43,2026-11-04,Memphis Grizzlies,Indiana Pacers,0.8968434147757183,Memphis Grizzlies,0.8968434147757183,"Tyrese Haliburton (-95), Ivica Zubac (-60), T.J. McConnell (-30), Johnny Furphy (-10), Ben Sheppard (-10)"
+2026-11-04T18:21:43,2026-11-04,New Orleans Pelicans,Utah Jazz,0.8523192383100784,New Orleans Pelicans,0.8523192383100784,"Yves Missi (-30); Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10)"
+2026-11-04T18:21:43,2026-11-04,Oklahoma City Thunder,Cleveland Cavaliers,0.4405050034821076,Cleveland Cavaliers,0.5594949965178924,"Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Otega Oweh (-10); Nae'Qwan Tomlin (-10)"
+2026-11-04T18:21:43,2026-11-04,Houston Rockets,Minnesota Timberwolves,0.7578605815890638,Houston Rockets,0.7578605815890638,"Clint Capela (-30), Steven Adams (-30); Anthony Edwards (-125), Donte DiVincenzo (-30)"
+2026-11-04T18:21:43,2026-11-04,Denver Nuggets,Toronto Raptors,0.7029660048635064,Denver Nuggets,0.7029660048635064,"Spencer Jones (-10), Julian Strawther (-10); Kawhi Leonard (-125), Nate Bittle (-10)"
+2026-11-04T18:21:43,2026-11-04,Phoenix Suns,Portland Trail Blazers,0.5834356785767528,Phoenix Suns,0.5834356785767528,"Mark Williams (-30); Ja Morant (-95), Shaedon Sharpe (-60)"
+2026-11-04T18:21:43,2026-11-04,San Antonio Spurs,Dallas Mavericks,0.8930618108810291,San Antonio Spurs,0.8930618108810291,"Tobias Harris (-30), Jayden Quaintance (-10); Santi Aldama (-30), Dereck Lively II (-30), Tarik Biberovic (-10), Sergio de Larrea (-10)"
+2026-11-04T18:21:43,2026-11-04,Sacramento Kings,Los Angeles Lakers,0.1816533411513755,Los Angeles Lakers,0.8183466588486245,"Keegan Murray (-60), Ben Simmons (-10), Maxime Raynaud (-10); Adou Thiero (-10)"
+2026-11-04T18:21:43,2026-11-04,LA Clippers,Miami Heat,0.3844231868209063,Miami Heat,0.6155768131790937,"Brandon Ingram (-95), Bradley Beal (-60), Jordan Miller (-10), Yanic Konan Niederhauser (-10)"
+2026-11-05T11:20:37,2026-11-05,Phoenix Suns,Orlando Magic,0.7189432948171711,Phoenix Suns,0.7189432948171711,"Mark Williams (-30); Paolo Banchero (-95), Jalen Suggs (-60), Jonathan Isaac (-10), Izaiyah Nelson (-10), Noah Penda (-10)"
+2026-11-05T11:20:37,2026-11-05,Golden State Warriors,Miami Heat,0.5186061803680491,Golden State Warriors,0.5186061803680491,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30)"
+2026-11-05T11:20:37,2026-11-06,Atlanta Hawks,Washington Wizards,0.8302949474347819,Atlanta Hawks,0.8302949474347819,"Mouhamed Gueye (-10), Henri Veesaar (-10), Jock Landale (-10); Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10), Reece Beekman (-10)"
+2026-11-05T11:20:37,2026-11-06,Charlotte Hornets,Boston Celtics,0.3652352828048107,Boston Celtics,0.6347647171951892,Grant Williams (-10); Devin Carter (-10)
+2026-11-05T11:20:37,2026-11-06,Cleveland Cavaliers,Philadelphia 76ers,0.5432694809712632,Cleveland Cavaliers,0.5432694809712632,"Jaylon Tyson (-30), Peyton Watson (-10), Nae'Qwan Tomlin (-10); Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-11-05T11:20:37,2026-11-06,Dallas Mavericks,Utah Jazz,0.8234009777953015,Dallas Mavericks,0.8234009777953015,"Dereck Lively II (-30), Tarik Biberovic (-10), Max Christie (-10), Sergio de Larrea (-10); Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10)"
+2026-11-05T11:20:37,2026-11-06,Memphis Grizzlies,Oklahoma City Thunder,0.6203412175201128,Memphis Grizzlies,0.6203412175201128,"Scotty Pippen Jr. (-30); Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10)"
+2026-11-05T11:20:37,2026-11-06,Milwaukee Bucks,Toronto Raptors,0.445116759424589,Toronto Raptors,0.5548832405754109,"Kawhi Leonard (-125), Nate Bittle (-10)"
+2026-11-05T11:20:37,2026-11-06,New Orleans Pelicans,Minnesota Timberwolves,0.5237221417834138,New Orleans Pelicans,0.5237221417834138,"Yves Missi (-30); Anthony Edwards (-125), Donte DiVincenzo (-30), Enrique Freeman (-10)"
+2026-11-05T11:20:37,2026-11-06,Sacramento Kings,San Antonio Spurs,0.128295545208281,San Antonio Spurs,0.871704454791719,"Keegan Murray (-60), Ben Simmons (-10), Maxime Raynaud (-10); Tobias Harris (-30), Jayden Quaintance (-10)"
+2026-11-05T11:20:37,2026-11-06,Los Angeles Lakers,Portland Trail Blazers,0.7781598243427944,Los Angeles Lakers,0.7781598243427944,"Adou Thiero (-10); Ja Morant (-95), Shaedon Sharpe (-60)"
+2026-11-05T11:20:37,2026-11-07,Indiana Pacers,Denver Nuggets,0.2202310853735063,Denver Nuggets,0.7797689146264937,"Tyrese Haliburton (-95), T.J. McConnell (-30), Johnny Furphy (-10), Ben Sheppard (-10); Spencer Jones (-10), Julian Strawther (-10)"
+2026-11-05T11:20:37,2026-11-07,Atlanta Hawks,Brooklyn Nets,0.8592854610594177,Atlanta Hawks,0.8592854610594177,"Mouhamed Gueye (-10), Henri Veesaar (-10), Jock Landale (-10); Egor Demin (-30), Tyler Bilodeau (-10)"
+2026-11-05T11:20:37,2026-11-07,Oklahoma City Thunder,Washington Wizards,0.7519805551409751,Oklahoma City Thunder,0.7519805551409751,"Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Nikola Topic (-10), Thomas Sorber (-10), Otega Oweh (-10); Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10), Reece Beekman (-10)"
+2026-11-05T11:20:37,2026-11-07,Cleveland Cavaliers,New York Knicks,0.4004534908590161,New York Knicks,0.5995465091409838,"Jaylon Tyson (-30), Peyton Watson (-10), Nae'Qwan Tomlin (-10)"
+2026-11-05T11:20:37,2026-11-07,Golden State Warriors,Orlando Magic,0.6778201064931768,Golden State Warriors,0.6778201064931768,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30); Paolo Banchero (-95), Jalen Suggs (-60), Jonathan Isaac (-10), Izaiyah Nelson (-10), Noah Penda (-10)"
+2026-11-05T11:20:37,2026-11-07,Phoenix Suns,Houston Rockets,0.3344149471730652,Houston Rockets,0.6655850528269348,Mark Williams (-30); Steven Adams (-30)
+2026-11-05T11:20:37,2026-11-07,Portland Trail Blazers,San Antonio Spurs,0.3385263557954784,San Antonio Spurs,0.6614736442045215,"Ja Morant (-95), Shaedon Sharpe (-60); Tobias Harris (-30), Jayden Quaintance (-10)"
+2026-11-08T15:29:46,2026-11-08,Chicago Bulls,Philadelphia 76ers,0.2747072490983467,Philadelphia 76ers,0.7252927509016533,"Dominick Barlow (-10), Ariel Hukporti (-10)"
+2026-11-08T15:29:46,2026-11-08,Detroit Pistons,Los Angeles Lakers,0.5939916410184252,Detroit Pistons,0.5939916410184252,"Jalen Duren (-60), Isaiah Joe (-30); Adou Thiero (-10)"
+2026-11-08T15:29:46,2026-11-08,Minnesota Timberwolves,Utah Jazz,0.9001418334411311,Minnesota Timberwolves,0.9001418334411311,"Anthony Edwards (-125), Donte DiVincenzo (-30), Enrique Freeman (-10); Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Trey Alexander (-10)"
+2026-11-08T15:29:46,2026-11-08,Dallas Mavericks,Brooklyn Nets,0.8048305396974688,Dallas Mavericks,0.8048305396974688,"Dereck Lively II (-30), Tarik Biberovic (-10), Max Christie (-10), Sergio de Larrea (-10); Egor Demin (-30), Tyler Bilodeau (-10)"
+2026-11-08T15:29:46,2026-11-08,Milwaukee Bucks,Boston Celtics,0.189824299834723,Boston Celtics,0.810175700165277,Devin Carter (-10)
+2026-11-08T15:29:46,2026-11-08,Sacramento Kings,Miami Heat,0.3125769060610686,Miami Heat,0.6874230939389314,"Keegan Murray (-60), Ben Simmons (-10), Maxime Raynaud (-10)"
+2026-11-08T15:29:46,2026-11-08,LA Clippers,New Orleans Pelicans,0.4405453749826532,New Orleans Pelicans,0.5594546250173468,"Brandon Ingram (-95), Bradley Beal (-60), Jordan Miller (-10), Yanic Konan Niederhauser (-10); Yves Missi (-30)"
+2026-11-09T18:29:49,2026-11-09,Detroit Pistons,Washington Wizards,0.8967787071579117,Detroit Pistons,0.8967787071579117,"Jalen Duren (-60), Isaiah Joe (-30); Justin Champagnie (-10), Tristan Vukcevic (-10), Jamir Watkins (-10), Reece Beekman (-10), Anthony Davis (-48), Bilal Coulibaly (-15)"
+2026-11-09T18:29:49,2026-11-09,Charlotte Hornets,Cleveland Cavaliers,0.2661270674121638,Cleveland Cavaliers,0.7338729325878361,"Kon Knueppel (-95), Brandon Miller (-60), Dennis Schroder (-30), Grant Williams (-10), Moussa Diabate (-15); Jaylon Tyson (-30), Sam Merrill (-10), Nae'Qwan Tomlin (-10), Jarrett Allen (-45)"
+2026-11-09T18:29:49,2026-11-09,Atlanta Hawks,Los Angeles Lakers,0.6853710831227754,Atlanta Hawks,0.6853710831227754,"Mouhamed Gueye (-10), Henri Veesaar (-10), Asa Newell (-10), Keshon Gilbert (-10), Jock Landale (-5); Austin Reaves (-95), Quentin Grimes (-30)"
+2026-11-09T18:29:49,2026-11-09,Toronto Raptors,Memphis Grizzlies,0.6221937927888117,Toronto Raptors,0.6221937927888117,"Kawhi Leonard (-125), Nate Bittle (-10), Scottie Barnes (-48), Immanuel Quickley (-30); Isaiah Stewart (-30), Scotty Pippen Jr. (-30), Richie Saunders (-10)"
+2026-11-09T18:29:49,2026-11-09,Dallas Mavericks,Indiana Pacers,0.7944494767177294,Dallas Mavericks,0.7944494767177294,"Dereck Lively II (-30), Tarik Biberovic (-10), Sergio de Larrea (-10), Morez Johnson Jr. (-5); Tyrese Haliburton (-95), Johnny Furphy (-10), Ben Sheppard (-10), T.J. McConnell (-15)"
+2026-11-09T18:29:49,2026-11-09,Houston Rockets,Denver Nuggets,0.8464325258740026,Houston Rockets,0.8464325258740026,"Clint Capela (-30), Steven Adams (-30); Julian Strawther (-10), Nikola Jokic (-75), Jamal Murray (-48), Christian Braun (-30), DeMar DeRozan (-30), Aaron Gordon (-30), Cameron Johnson (-30)"
+2026-11-09T18:29:49,2026-11-09,Phoenix Suns,San Antonio Spurs,0.3171397751613021,San Antonio Spurs,0.6828602248386979,"Mark Williams (-30), Jordan Goodwin (-5); Tobias Harris (-30), Jayden Quaintance (-10), Devin Vassell (-30)"
+2026-11-09T18:29:49,2026-11-09,Golden State Warriors,New Orleans Pelicans,0.8212147176770486,Golden State Warriors,0.8212147176770486,"Jimmy Butler III (-95), Kristaps Porzingis (-60), Moses Moody (-30), Will Richard (-10); Yves Missi (-30), Zion Williamson (-95), Trey Murphy III (-95), Trendon Watford (-10)"
+2026-11-10T14:59:21,2026-11-10,New York Knicks,Milwaukee Bucks,0.9423916140771866,New York Knicks,0.9423916140771866,Josh Hart (-15); Tyler Herro (-48)
+2026-11-10T14:59:21,2026-11-10,Philadelphia 76ers,Boston Celtics,0.45519596842170873,Boston Celtics,0.5448040315782913,"Dominick Barlow (-10), Adem Bona (-10), Ariel Hukporti (-10)"
+2026-11-10T14:59:21,2026-11-10,Utah Jazz,Miami Heat,0.2576267953675535,Miami Heat,0.7423732046324465,"Jaren Jackson Jr. (-60), Jusuf Nurkic (-30), Keyonte George (-30), Lauri Markkanen (-48); Giannis Antetokounmpo (-75)"
+2026-11-10T14:59:21,2026-11-10,Phoenix Suns,LA Clippers,0.7233726602252833,Phoenix Suns,0.7233726602252833,"Mark Williams (-30), Jordan Goodwin (-5); Brandon Ingram (-95), Bradley Beal (-60), Jordan Miller (-10), Yanic Konan Niederhauser (-10), Cam Christie (-5)"
+2026-11-10T14:59:21,2026-11-10,Sacramento Kings,Orlando Magic,0.5148798673409991,Sacramento Kings,0.5148798673409991,"Ben Simmons (-10), Maxime Raynaud (-10), Domantas Sabonis (-48), Keegan Murray (-30); Paolo Banchero (-95), Jalen Suggs (-60), Jonathan Isaac (-10), Izaiyah Nelson (-10), Noah Penda (-10)"
+2026-11-10T14:59:21,2026-11-10,Portland Trail Blazers,Oklahoma City Thunder,0.5690274636491499,Portland Trail Blazers,0.5690274636491499,"Ja Morant (-95), Shaedon Sharpe (-60), Vit Krejci (-10); Jalen Williams (-95), Chet Holmgren (-95), Cason Wallace (-30), Jaylin Williams (-30), Thomas Sorber (-10), Otega Oweh (-10), Nikola Topic (-5)"
