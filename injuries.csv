@@ -3,6 +3,7 @@ ATL,Mouhamed Gueye,bench,
 ATL,Henri Veesaar,bench,
 CHA,Kon Knueppel,top30,
 CHA,Dennis Schroder,top120,
+CLE,Sam Merrill,bench,
 CLE,Nae'Qwan Tomlin,bench,
 DET,Jalen Duren,top60,
 DET,Isaiah Joe,top120,
@@ -18,6 +19,7 @@ PHI,Dominick Barlow,bench,
 PHI,Adem Bona,bench,
 PHI,Ariel Hukporti,bench,
 TOR,Kawhi Leonard,top15,
+TOR,Scottie Barnes,top30,
 TOR,Nate Bittle,bench,
 WAS,Justin Champagnie,bench,
 WAS,Tristan Vukcevic,bench,
@@ -27,17 +29,22 @@ DEN,Julian Strawther,bench,
 GSW,Jimmy Butler III,top30,
 GSW,Kristaps Porzingis,top60,
 GSW,Moses Moody,top120,
-GSW,Will Richard,bench,
+GSW,Gary Payton II,bench,
+GSW,Brandon Williams,bench,
 HOU,Clint Capela,top120,
 HOU,Steven Adams,top120,
 LAC,Brandon Ingram,top30,
 LAC,Bradley Beal,top60,
+LAC,Cam Christie,bench,
 LAC,Jordan Miller,bench,
 LAC,Yanic Konan Niederhauser,bench,
+MEM,Scotty Pippen Jr.,top120,
+MEM,Quinten Post,bench,
 MEM,Richie Saunders,bench,
 MIN,Anthony Edwards,top15,
 MIN,Donte DiVincenzo,top120,
 NOP,Yves Missi,top120,
+NOP,Trendon Watford,bench,
 OKC,Jalen Williams,top30,
 OKC,Chet Holmgren,top30,
 OKC,Cason Wallace,top120,
@@ -50,49 +57,41 @@ POR,Shaedon Sharpe,top60,
 POR,Vit Krejci,bench,
 SAC,Ben Simmons,bench,
 SAC,Maxime Raynaud,bench,
+SAC,Precious Achiuwa,bench,
+SAS,Tobias Harris,top120,
 SAS,Jayden Quaintance,bench,
+UTA,Lauri Markkanen,top30,
 UTA,Jaren Jackson Jr.,top60,
 UTA,Jusuf Nurkic,top120,
-UTA,Keyonte George,top120,
-MIA,Giannis Antetokounmpo,75,2026-11-10
-LAL,Austin Reaves,48,2026-11-10
-MIL,Tyler Herro,48,2026-11-10
-NOP,Zion Williamson,48,2026-11-10
-NOP,Trey Murphy III,48,2026-11-10
-SAC,Domantas Sabonis,48,2026-11-10
-TOR,Scottie Barnes,48,2026-11-10
-UTA,Lauri Markkanen,48,2026-11-10
-CHA,Brandon Miller,30,2026-11-10
-CHI,Norman Powell,30,2026-11-10
-SAC,Keegan Murray,30,2026-11-10
-SAS,Devin Vassell,30,2026-11-10
-TOR,Immanuel Quickley,30,2026-11-10
-BKN,Egor Demin,15,2026-11-10
-BKN,Mikel Brown Jr.,15,2026-11-10
-CLE,Jaylon Tyson,15,2026-11-10
-DAL,Dereck Lively II,15,2026-11-10
-GSW,Gary Payton II,15,2026-11-10
-LAL,Quentin Grimes,15,2026-11-10
-MEM,Isaiah Stewart,15,2026-11-10
-MEM,Scotty Pippen Jr.,15,2026-11-10
-NYK,Josh Hart,15,2026-11-10
-SAS,Tobias Harris,15,2026-11-10
-TOR,Collin Murray-Boyles,15,2026-11-10
-WAS,Bilal Coulibaly,15,2026-11-10
-ATL,Asa Newell,5,2026-11-10
-ATL,Keshon Gilbert,5,2026-11-10
-BKN,Grant Nelson,5,2026-11-10
-CHA,Moussa Diabate,5,2026-11-10
-CHA,Grant Williams,5,2026-11-10
-CHI,Zach Collins,5,2026-11-10
-CLE,Sam Merrill,5,2026-11-10
-DAL,Tarik Biberovic,5,2026-11-10
-DAL,Sergio de Larrea,5,2026-11-10
-DAL,Morez Johnson Jr.,5,2026-11-10
-GSW,Brandon Williams,5,2026-11-10
-HOU,Oscar Tshiebwe,5,2026-11-10
-LAC,Cam Christie,5,2026-11-10
-MEM,Quinten Post,5,2026-11-10
-NOP,Trendon Watford,5,2026-11-10
-OKC,Nikola Topic,5,2026-11-10
-PHX,Jordan Goodwin,5,2026-11-10
+BOS,Paul George,top60,2026-11-11
+MIL,Myles Turner,top60,2026-11-11
+BKN,Mikel Brown Jr.,top120,2026-11-11
+LAL,Quentin Grimes,top120,2026-11-11
+TOR,Trayce Jackson-Davis,bench,2026-11-11
+MIL,Tyler Herro,48,2026-11-11
+NOP,Trey Murphy III,48,2026-11-11
+NYK,Karl-Anthony Towns,48,2026-11-11
+UTA,Keyonte George,48,2026-11-11
+CHA,Brandon Miller,30,2026-11-11
+CHI,Norman Powell,30,2026-11-11
+SAS,Devin Vassell,30,2026-11-11
+TOR,Immanuel Quickley,30,2026-11-11
+BKN,Egor Demin,15,2026-11-11
+CLE,Jaylon Tyson,15,2026-11-11
+IND,T.J. McConnell,15,2026-11-11
+MEM,Isaiah Stewart,15,2026-11-11
+ORL,Tristan da Silva,15,2026-11-11
+TOR,Collin Murray-Boyles,15,2026-11-11
+ATL,Asa Newell,5,2026-11-11
+ATL,Keshon Gilbert,5,2026-11-11
+BKN,Grant Nelson,5,2026-11-11
+BKN,Nolan Traore,5,2026-11-11
+CHA,Moussa Diabate,5,2026-11-11
+CHA,Grant Williams,5,2026-11-11
+CHI,Zach Collins,5,2026-11-11
+DAL,Tarik Biberovic,5,2026-11-11
+DAL,Sergio de Larrea,5,2026-11-11
+DAL,Dereck Lively II,5,2026-11-11
+DAL,Morez Johnson Jr.,5,2026-11-11
+GSW,Will Richard,5,2026-11-11
+ORL,Jamal Cain,5,2026-11-11
