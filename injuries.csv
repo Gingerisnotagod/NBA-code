@@ -1,8 +1,20 @@
 team,player,penalty,date
 ATL,Mouhamed Gueye,bench,
 ATL,Henri Veesaar,bench,
+ATL,Asa Newell,bench,
+ATL,Keshon Gilbert,bench,
+ATL,Kingston Flemings,bench,
+BKN,Michael Porter Jr.,top60,
 CHA,Kon Knueppel,top30,
 CHA,Dennis Schroder,top120,
+CHI,Caleb Wilson,top60,
+CHI,Nic Claxton,top120,
+CHI,Jalen Smith,bench,
+CLE,Donovan Mitchell,top15,
+CLE,Evan Mobley,top30,
+CLE,James Harden,top30,
+CLE,Jarrett Allen,top60,
+CLE,Peyton Watson,bench,
 CLE,Sam Merrill,bench,
 CLE,Nae'Qwan Tomlin,bench,
 DET,Jalen Duren,top60,
@@ -10,40 +22,51 @@ DET,Isaiah Joe,top120,
 IND,Tyrese Haliburton,top30,
 IND,Johnny Furphy,bench,
 IND,Ben Sheppard,bench,
+MIA,Pelle Larsson,bench,
+MIL,Ousmane Dieng,bench,
 ORL,Paolo Banchero,top30,
-ORL,Jalen Suggs,top60,
-ORL,Jonathan Isaac,bench,
 ORL,Izaiyah Nelson,bench,
 ORL,Noah Penda,bench,
+PHI,Joel Embiid,top15,
 PHI,Dominick Barlow,bench,
 PHI,Adem Bona,bench,
 PHI,Ariel Hukporti,bench,
 TOR,Kawhi Leonard,top15,
-TOR,Scottie Barnes,top30,
 TOR,Nate Bittle,bench,
 WAS,Justin Champagnie,bench,
 WAS,Tristan Vukcevic,bench,
 WAS,Jamir Watkins,bench,
 WAS,Reece Beekman,bench,
+DAL,Dereck Lively II,top120,
+DAL,Tarik Biberovic,bench,
+DAL,Sergio de Larrea,bench,
 DEN,Julian Strawther,bench,
+GSW,Stephen Curry,top5,
 GSW,Jimmy Butler III,top30,
 GSW,Kristaps Porzingis,top60,
 GSW,Moses Moody,top120,
-GSW,Gary Payton II,bench,
 GSW,Brandon Williams,bench,
+HOU,Fred VanVleet,top60,
 HOU,Clint Capela,top120,
-HOU,Steven Adams,top120,
 LAC,Brandon Ingram,top30,
 LAC,Bradley Beal,top60,
-LAC,Cam Christie,bench,
 LAC,Jordan Miller,bench,
 LAC,Yanic Konan Niederhauser,bench,
+LAL,Austin Reaves,top30,
+MEM,Zach Edey,top60,
+MEM,Jerami Grant,top60,
+MEM,Ty Jerome,top120,
 MEM,Scotty Pippen Jr.,top120,
 MEM,Quinten Post,bench,
+MEM,Gregory Jackson,bench,
 MEM,Richie Saunders,bench,
 MIN,Anthony Edwards,top15,
 MIN,Donte DiVincenzo,top120,
-NOP,Yves Missi,top120,
+MIN,Jaylen Clark,bench,
+NOP,Trey Murphy III,top30,
+NOP,Dejounte Murray,top60,
+NOP,Bennedict Mathurin,top60,
+NOP,Bryce McGowens,bench,
 NOP,Trendon Watford,bench,
 OKC,Jalen Williams,top30,
 OKC,Chet Holmgren,top30,
@@ -57,41 +80,33 @@ POR,Shaedon Sharpe,top60,
 POR,Vit Krejci,bench,
 SAC,Ben Simmons,bench,
 SAC,Maxime Raynaud,bench,
-SAC,Precious Achiuwa,bench,
 SAS,Tobias Harris,top120,
 SAS,Jayden Quaintance,bench,
 UTA,Lauri Markkanen,top30,
 UTA,Jaren Jackson Jr.,top60,
 UTA,Jusuf Nurkic,top120,
-BOS,Paul George,top60,2026-11-11
-MIL,Myles Turner,top60,2026-11-11
-BKN,Mikel Brown Jr.,top120,2026-11-11
-LAL,Quentin Grimes,top120,2026-11-11
-TOR,Trayce Jackson-Davis,bench,2026-11-11
-MIL,Tyler Herro,48,2026-11-11
-NOP,Trey Murphy III,48,2026-11-11
-NYK,Karl-Anthony Towns,48,2026-11-11
-UTA,Keyonte George,48,2026-11-11
-CHA,Brandon Miller,30,2026-11-11
-CHI,Norman Powell,30,2026-11-11
-SAS,Devin Vassell,30,2026-11-11
-TOR,Immanuel Quickley,30,2026-11-11
-BKN,Egor Demin,15,2026-11-11
-CLE,Jaylon Tyson,15,2026-11-11
-IND,T.J. McConnell,15,2026-11-11
-MEM,Isaiah Stewart,15,2026-11-11
-ORL,Tristan da Silva,15,2026-11-11
-TOR,Collin Murray-Boyles,15,2026-11-11
-ATL,Asa Newell,5,2026-11-11
-ATL,Keshon Gilbert,5,2026-11-11
-BKN,Grant Nelson,5,2026-11-11
-BKN,Nolan Traore,5,2026-11-11
-CHA,Moussa Diabate,5,2026-11-11
-CHA,Grant Williams,5,2026-11-11
-CHI,Zach Collins,5,2026-11-11
-DAL,Tarik Biberovic,5,2026-11-11
-DAL,Sergio de Larrea,5,2026-11-11
-DAL,Dereck Lively II,5,2026-11-11
-DAL,Morez Johnson Jr.,5,2026-11-11
-GSW,Will Richard,5,2026-11-11
-ORL,Jamal Cain,5,2026-11-11
+UTA,Jaxson Hayes,bench,
+DAL,Daniel Gafford,top120,2026-11-15
+DAL,Max Christie,top120,2026-11-15
+LAL,Cameron Carr,bench,2026-11-15
+LAL,Luka Doncic,75,2026-11-15
+TOR,Scottie Barnes,48,2026-11-15
+IND,Andrew Nembhard,30,2026-11-15
+IND,Aaron Nesmith,30,2026-11-15
+OKC,Ajay Mitchell,30,2026-11-15
+SAC,Keegan Murray,30,2026-11-15
+WAS,Alex Sarr,30,2026-11-15
+DET,Duncan Robinson,15,2026-11-15
+HOU,Steven Adams,15,2026-11-15
+IND,T.J. McConnell,15,2026-11-15
+LAL,Collin Sexton,15,2026-11-15
+WAS,Bub Carrington,15,2026-11-15
+WAS,Tre Johnson,15,2026-11-15
+LAL,Bronny James,5,2026-11-15
+LAL,Adou Thiero,5,2026-11-15
+ORL,Jonathan Isaac,5,2026-11-15
+PHX,Drew Timme,5,2026-11-15
+POR,Chris Youngblood,5,2026-11-15
+SAC,Precious Achiuwa,5,2026-11-15
+TOR,Kevin McCullar Jr.,5,2026-11-15
+UTA,Trey Alexander,5,2026-11-15
